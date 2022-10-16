@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/simple-node-app"
+    "url": "vasu.us-east-1.elasticbeanstalk.com/simple-node-app"
   },
   "keywords": [],
   "author": "Luke Mwila",

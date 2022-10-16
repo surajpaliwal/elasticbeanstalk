@@ -13,5 +13,8 @@ app.use(bodyParser.json());
 app.get('/test', (req, res) => {
   res.status(200).send({ text: 'Simple Node App Working!' });
 });
+app.get('/index', (req, res) => {
+  res.sendFile(path.join(__dirname + 'index.html'));
+});
 
 module.exports = app;

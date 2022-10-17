@@ -10,11 +10,14 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Express route handlers
+app.get('/', (req, res) => {
+  res.status(200).send({ text: 'Simple Node App Working!' });
+});
 app.get('/test', (req, res) => {
   res.status(200).send({ text: 'Simple Node App Working!' });
 });
 app.get('/index', (req, res) => {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile('index.html', {root: __dirname}); 
 });
 
 module.exports = app;

@@ -5,12 +5,6 @@ files:
     destination: /home/ubuntu/web_dhister
     overwrite: true
 file_exists_behavior: OVERWRITE
-permissions:
-  - object: /opt/codedeploy-agent/deployment-root/83e7da63-7d5b-438d-b81a-2f1a8cb0dd4b
-    group: root
-    mode: 777
-    type:
-      - directory
 hooks:
   ApplicationStop:
     - location: application_start.sh

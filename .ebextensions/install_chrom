@@ -1,8 +1,14 @@
 commands:
     command1:
-        command: "wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm"
+        command: "sudo su ec2-user"
     command2:
-        command: "sudo yum install ./google-chrome-stable_current_x86_64.rpm"
+        command: "wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm"
     command3:
+        command: "sudo yum install ./google-chrome-stable_current_x86_64.rpm"
+    command4:
         command: "sudo ln -s /usr/bin/google-chrome-stable /usr/bin/chromium"
+    command5:
+        command: "curl https://intoli.com/install-google-chrome.sh | bash"
+        
+
     

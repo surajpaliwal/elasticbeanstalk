@@ -1,6 +1,6 @@
 commands:
     command1:
-        command: "sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm"
+        command: "wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm"
     command2:
         command: "sudo yum install ./google-chrome-stable_current_x86_64.rpm"
     command3:

@@ -11,3 +11,6 @@ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64
 sudo yum install ./google-chrome-stable_current_x86_64.rpm
 sudo ln -s /usr/bin/google-chrome-stable /usr/bin/chromium
 curl https://intoli.com/install-google-chrome.sh | bash
+
+mkdir /home/ec2-user/surajkumar
+sudo touch /home/ec2-user/surajkumar/abc.txt
